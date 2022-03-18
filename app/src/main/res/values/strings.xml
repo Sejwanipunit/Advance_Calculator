@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculator App</string>
+    <string name="sample1">2.1*7</string>
+    <string name="sample2">14.7</string>
+    <string name="back">--</string>
+
+</resources>
