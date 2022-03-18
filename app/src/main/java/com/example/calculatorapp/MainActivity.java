@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.os.Bundle;
+import android.os.VibrationEffect;
 import android.view.View;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.lang.*;
 import java.util.Arrays;
@@ -160,7 +162,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getAns("-");
 
         p = Double.parseDouble(operands.get(0));
-        result.setText(String.valueOf(p));
+        DecimalFormat formatter = new DecimalFormat("#.##########");
+        result.setText(String.valueOf(formatter.format(p)));
 
     }
 

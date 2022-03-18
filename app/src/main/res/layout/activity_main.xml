@@ -32,7 +32,7 @@
         android:fontFamily="@font/poppins_medium"
         android:text="@string/sample2"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="42sp"
         android:textAlignment="textEnd"
         app:layout_constraintBottom_toTopOf="@+id/layout"
         app:layout_constraintStart_toStartOf="parent"
